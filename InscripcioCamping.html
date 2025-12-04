@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arma Tu Camping - Inscripciones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f2f2f2;
+            color: #153b2b;
+        }
+        header {
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgb(255, 255, 255);
+            background: rgba(255, 255, 255, 0);
+            backdrop-filter: blur(8px);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        header img {
+            height: 70px;
+        }
+        .hero {
+            background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 20%), linear-gradient(#00000080, #00000080), url('background.png');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            text-align: center;
+            color: #fff;
+            backdrop-filter: blur(4px);
+            border-bottom: 1px solid rgba(255,255,255,0.18);
+        }
+        .hero h1 {
+            font-size: 42px;
+            margin: 0;
+            font-weight: 700;
+        }
+        .hero h2 {
+            margin-top: 10px;
+            font-size: 26px;
+            font-weight: 400;
+        }
+
+        h3 {
+            color: #153b2b;
+        }
+        .contenido {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+        .contenido p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #1b4634;
+        }
+        .datos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .dato {
+            background: rgba(255, 255, 255, 0.18);
+            padding: 20px;
+            border-radius: 16px;
+            box-shadow: 0 4px 25px rgba(0,0,0,0.15);
+            font-weight: 600;
+            font-size: 18px;
+            border-left: 6px solid #145f52;
+            backdrop-filter: blur(18px);
+        }
+        .boton-inscripcion {
+            margin-top: 40px;
+        }
+        .boton-inscripcion a {
+            display: inline-block;
+            background: rgba(121, 99, 2, 0.459);
+            padding: 15px 40px;
+            border-radius: 30px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 700;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.2);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255,255,255,0.3);
+            transition: 0.3s;
+        }
+        .boton-inscripcion a:hover {
+            background-color: #8f5d00;
+        }
+
+        .social-fixed {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 40px 0;
+        }
+        
+        .social-fixed a {
+            width: 55px;
+            height: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 26px;
+            color: rgb(78, 46, 5);
+            transition: 0.3s ease;
+        }
+        
+        
+        footer {
+            margin-top: 50px;
+            background-color: #0f6b57;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Logo OBC Guías de Mi Tierra" />
+    <h3>OBC Guías de Mi Tierra</h3>
+</header>
+
+<section class="hero">
+    <h1>Explora, Aprende y Vive la Experiencia</h1>
+    <h2>Arma Tu Camping</h2>
+    <h2>B/. 3.00</h2>
+</section>
+
+<section class="contenido">
+    <p>
+        Vive una nueva experiencia donde aprenderás a armar un campamento de forma práctica y divertida. <br>
+        Incluye refrigerio, snacks y certificado de participación.
+    </p>
+
+    <div class="datos">
+        <div class="dato">📅 Fecha: <br> <b>20 de diciembre</b></div>
+        <div class="dato">🎒 Edad: <br> <b>8 a 14 años</b></div>
+        <div class="dato">📍 Lugar: <br> <b>Barrigón</b></div>
+        <div class="dato">⏰ Hora: <br> <b>9:00 AM</b></div>
+    </div>
+
+    <div class="boton-inscripcion">
+        <a href="GOOGLE-FORMS-AQUI" target="_blank">Inscribirse Ahora</a>
+    </div>
+</section>
+
+<div class="social-fixed">
+    <a href="https://wa.me/50768051963" target="_blank" class="icon-wsp"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://instagram.com/guias_de_mi_tierra" target="_blank" class="icon-ig"><i class="fab fa-instagram"></i></a>
+</div>
+
+<footer>
+    © 2025 Guías de Mi Tierra · Todos los derechos reservados
+</footer>
+
+</body>
+</html>
